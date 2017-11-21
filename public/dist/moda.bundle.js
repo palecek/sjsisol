@@ -1,0 +1,1 @@
+System.registerDynamic("src/libs/getrev.js",[],!0,function(a,b,c){function d(){return"lib fun rev 1"}this||self;b.getRev=d}),System.registerDynamic("src/moda/index.js",["src/libs/getrev.js"],!0,function(a,b,c){function d(a){console.log(a+" moda, librev: "+e())}var e=(this||self,a("src/libs/getrev.js").getRev);b.index=d});

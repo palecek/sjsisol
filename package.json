@@ -4,7 +4,8 @@
   "description": "systemjs isolation poc.",
   "repository": "https://github.com/palecek/sjsisol.git",
   "scripts": {
-    "serve": "node server.js",
+    "serve:src": "node server-src.js",
+    "serve:dist": "node server-dist.js",
     "bundle": "node bundle.js"
   },
   "author": "",
