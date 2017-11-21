@@ -19,4 +19,4 @@ function sfxBuild(moduleName) {
     })
 }
 
-['moda', 'modb'].map(sfxBuild)
+['moda', 'modb', 'modc'].map(sfxBuild)
