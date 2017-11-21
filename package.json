@@ -1,0 +1,19 @@
+{
+  "name": "sjsisol",
+  "version": "1.0.0",
+  "description": "systemjs isolation poc.",
+  "repository": "https://github.com/palecek/sjsisol.git",
+  "scripts": {
+    "serve": "node server.js",
+    "bundle": "node bundle.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.16.53",
+    "live-server": "^1.2.0"
+  },
+  "jspm": {
+    "devDependencies": {}
+  }
+}
