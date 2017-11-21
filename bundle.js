@@ -52,10 +52,10 @@ function moduleBundle(moduleName) {
     })
 }
 
-var modules = ['moda', 'modb', 'modc']
+var modules = ['modb']
 
 modules.map(moduleSfxBuild)
 modules.map(moduleBundle)
 
 var loaders = ['loader-bundle', 'loader-sfx']
-loaders.map(loaderSfxBuild)
+// loaders.map(loaderSfxBuild)
